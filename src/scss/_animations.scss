@@ -112,10 +112,10 @@
 }
 @keyframes orbit {
   from {
-    transform: rotate(0deg) translateX(130px) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg) translateX(130px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translateX(160px) rotate(-360deg);
+    transform: translate(-50%, -50%) rotate(360deg) translateX(130px) rotate(-360deg);
   }
 }
 
